@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+.field > img {
+ width: 15%;
+ padding-top: 20px;
+ padding-bottom: 35px ;
+ 
+}
+
+.inputbox {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-image: url(https://www.stratoscale.com/wp-content/uploads/2019/05/bigstock-168398480.jpg);
+  background-repeat: no-repeat;
+  
+}
+
+.field > h1{
+  font-family: 'montserrat';
+  padding-top: 10px;
+}
+ 
+.field{
+  padding: 10%;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 6px rgba(0, o, 0, 0.12), 0 2px 3px rgba(0, 0, 0, 0.24);
+  padding-top:0 ;
+  padding-bottom: 10px;
+}
+
+.field > form > button{
+margin-top: 20px;
+margin-bottom: 40px;
+text-transform: inherit !important;
+background-color: #0a8e48 !important;
+color: white;
+}
+
+.design{
+  color:#919499;
+  
+}
