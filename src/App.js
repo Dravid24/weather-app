@@ -24,14 +24,14 @@ const App= () => {
     setTemp(temp);
     setDesc(desc);
     setLogo(iconURL);
-  
+    setInput(input);
   }
 
   return (
     <div>
-      {temp === "" ? (
-      <Weather input={input} setInput={setInput} Findweather={Findweather}/>) :
-      (<Output input={input} temp={temp} desc={desc} logo={logo} setTemp={setTemp} />)
+      {temp === "" ? 
+      <Weather input={input} setInput={setInput} Findweather={Findweather}/> :
+      <Output input={input} temp={temp} desc={desc} logo={logo} setTemp={setTemp} />
   }
     </div>
   );

@@ -10,7 +10,7 @@ const handelChange = (event) => {
 
 const handelClick =(event) =>{
     event.preventDefault();
-    Findweather();
+    Findweather();  
 }
     return (
 <div className="body">
@@ -18,16 +18,12 @@ const handelClick =(event) =>{
     <div className="field">
         <h1>Weather App</h1>
         <p>Powered by</p>
-        <img 
-        src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg" alt="Logo"
-        />
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg" alt="Logo" />
         <form>
-        <Input placeholder="Enter the city name" onChange={handelChange} value={input} /> <br />
-        <Button variant="contained" color="primary" onClick={handelClick}>
-            Submit
-        </Button>
+            <Input placeholder="Enter the city name" onChange={handelChange} value={input} /> <br />
+            <Button variant="contained" color="primary" type="Submit" onClick={handelClick}>Search</Button>
+        </form><br />
         <div className="design"><p>Copyright &copy; 2020 Dravid. All Rights Reserved</p></div>
-        </form>
     </div>
   </div>
 </div>
